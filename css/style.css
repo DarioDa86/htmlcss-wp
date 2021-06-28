@@ -101,20 +101,18 @@ a {
     background-color: #abcfe7;
 }
 
-
-/* .col-header{
-    height: 80px;
-    
-    /* margin-bottom: 10px; */
-    background-color: #abcfe7;
-} */
-
 .row-col {
     padding: 20px 0;
-
 }
 .col-left {
     width: 25%;
+}
+
+.img-left{
+    /* position: relative; */
+    max-width: 100%;
+    background-image: url(../img/img-1.jpg);
+    border-radius: 10px;
 }
 
 .col-center {
