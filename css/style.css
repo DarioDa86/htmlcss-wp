@@ -24,26 +24,6 @@ header{
     margin-bottom: 20px;
 }
 
-/* inizio secondo container */
-.first-container{
-    height: 400px;
-    background-color: #e1d67a; 
-    margin-bottom: 20px;
-}
-
-/* inizio secondo container */
-.second-container{
-    height: 500px;
-    background-color: #0185ff; 
-    margin-bottom: 5px;
-}
-
-.col-common {
-    height: 80%;
-    float: left;
-    background-color: #abcfe7;
-}
-
 .logo-neori {
     width: 180px;
     padding-right: 20px;
@@ -64,6 +44,44 @@ a {
     text-decoration: none;
     color: #868686;
 }
+/* /fine HEADER */
+
+
+/* inizio primo container */
+.first-container{
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.banner-hero {
+    background-image: url(../img/banner.jpg);
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.testo-banner-hero {
+    max-width: 350px;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 20px;
+}
+
+/* inizio secondo container */
+.second-container{
+    height: 500px;
+    background-color: #0185ff; 
+    margin-bottom: 5px;
+}
+
+.col-common {
+    height: 80%;
+    float: left;
+    background-color: #abcfe7;
+}
+
 
 .col-header{
     height: 80px;
