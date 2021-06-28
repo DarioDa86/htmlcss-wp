@@ -19,9 +19,9 @@
 
 /* HEADER */
 header{
-    height: 150px;
-    background-color: #e579e6;
-    margin: 20px 0;
+    /* height: 150px;
+    background-color: #e579e6; */
+    margin-bottom: 20px;
 }
 
 /* inizio secondo container */
@@ -48,6 +48,21 @@ header{
     width: 180px;
     padding-right: 20px;
     border-right: 1px solid black;
+}
+
+.navigation-menu {
+    list-style: none;
+    margin-top: 30px;
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #868686;
 }
 
 .col-header{
