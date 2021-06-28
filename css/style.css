@@ -86,7 +86,7 @@ a {
 
 /* inizio secondo container */
 .second-container{
-    height: 500px;
+    height: 600px;
     margin-bottom: 5px;
 }
 
@@ -150,6 +150,12 @@ a {
 
 .footer {
     height: 50px;
-    background-color: #8801fe;
+    text-align: center;
     margin-bottom: 20px;
+
+}
+
+.heart {
+    font-size: 15px;
+    color: red;
 }
