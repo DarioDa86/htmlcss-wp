@@ -44,18 +44,21 @@ a {
     text-decoration: none;
     color: #868686;
 }
+
+.color-text{
+    color: #868686;
+}
 /* /fine HEADER */
 
 
 /* inizio primo container */
 .first-container{
-    margin-bottom: 20px;
     position: relative;
 }
 
 .banner-hero {
     background-image: url(../img/banner.jpg);
-    height: 300px;
+    height: 450px;
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -63,17 +66,33 @@ a {
 }
 
 .testo-banner-hero {
-    max-width: 350px;
+    max-width: 500px;
     position: absolute;
-    margin-top: 180px;
+    margin-top: 300px;
     margin-left: 20px;
+    color: white;
+    z-index: 2;
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
 
 /* inizio secondo container */
 .second-container{
     height: 500px;
-    background-color: #0185ff; 
+    /* background-color: #0185ff; */
     margin-bottom: 5px;
+}
+
+.leadership {
+    margin: 25px 0;
 }
 
 .col-common {
@@ -83,12 +102,12 @@ a {
 }
 
 
-.col-header{
+/* .col-header{
     height: 80px;
-    margin-bottom: 15px;
+    
     /* margin-bottom: 10px; */
     background-color: #abcfe7;
-}
+} */
 
 .row-col {
     padding: 20px 0;
