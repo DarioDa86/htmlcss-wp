@@ -44,6 +44,12 @@ header{
     background-color: #abcfe7;
 }
 
+.logo-neori {
+    width: 180px;
+    padding-right: 20px;
+    border-right: 1px solid black;
+}
+
 .col-header{
     height: 80px;
     margin-bottom: 15px;
